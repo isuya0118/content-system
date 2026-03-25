@@ -4,4 +4,4 @@
 /review-content
 
 git add .
-git commit -m "Review properties" 
+git commit -m "Make skills" 
