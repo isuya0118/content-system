@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 .env
 
-contents/01_WordPress/
-contents/02_note/
-contents/03_X/
+# contents配下は全部無視
+contents/**
+
+# ただしディレクトリは維持するため .gitkeep は許可
+!contents/**/
+!contents/**/.gitkeep
