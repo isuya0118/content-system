@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 .env
+
+contents/01_WordPress/
+contents/02_note/
+contents/03_X/
