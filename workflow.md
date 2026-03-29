@@ -154,26 +154,34 @@ review-template.md を使って出力する。
 
 ## X
 
-### 1. draft作成
-X投稿は1投稿1ファイルではなく、日単位でまとめる。
+### 1. idea作成
+`contents/03_X/ideas/YYYY-MM-DD_slug.md` に作成する。
 
-ファイル名：
-`contents/03_X/drafts/YYYY-MM-DD_posts.md`
+記載内容：
+- 投稿の目的（いいね / リプ / 保存 / クリック）
+- 狙うテーマ・切り口
+- バズパターンの型（`strategy/x-buzz-patterns.md` を参照）
+- 誘導先URL（ある場合）
 
-`contents/99_template/x-post.md` を使って、候補を複数作成する。
+### 2. draft作成
+`contents/03_X/drafts/YYYY-MM-DD_slug.md` に初稿を作成する。
 
-### 2. review実行
+- `strategy/x-buzz-patterns.md` のチェックリストを参照しながら複数案（3〜10本）を作成する
+- `contents/99_template/x-post.md` を使う
+
+### 3. review実行
 以下を使ってレビューする。
+- `strategy/x-buzz-patterns.md`（バズ投稿チェックリスト）
 - `contents/99_criteria/x-criteria.md`
 - `contents/99_template/review-template.md`
 
 レビュー結果は `contents/03_X/reviews/` に保存する。
 
-### 3. revise
+### 4. revise
 95点未満の投稿は修正する。
 反応の弱そうなものは破棄してよい。
 
-### 4. publish
+### 5. publish
 実際に投稿したものは `contents/03_X/published/YYYY-MM-DD_posts.md` に記録する。
 必要ならインプレ・いいね・クリックなどの結果も追記する。
 
