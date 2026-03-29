@@ -2,6 +2,11 @@
 __pycache__/
 *.pyc
 .env
+logs/
+strategy/metrics_history/
+strategy/metrics.md
+strategy/daily_report_history/
+strategy/daily_report.md
 
 # contents配下は全部無視
 contents/**
