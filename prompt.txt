@@ -1,7 +1,0 @@
-/wordpress-article
-/note-article
-/x-post
-/review-content
-
-git add .
-git commit -m "Make skills" 
