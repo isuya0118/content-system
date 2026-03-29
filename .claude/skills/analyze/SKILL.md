@@ -1,3 +1,8 @@
+---
+name: analyze
+description: WordPress・note・Xの運用状況を分析し、目標とのギャップ・ボトルネック・今週のアクションを優先順位付きで提案する。直近の数値確認や週次レビューに有効。
+---
+
 # Analyze Skill
 
 この skill は WordPress・note・X の運用状況を分析し、優先アクションを提案するためのものです。
